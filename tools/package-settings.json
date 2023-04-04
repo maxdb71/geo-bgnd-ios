@@ -1,0 +1,16 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxdb71/geo-bgnd-ios.git"
+  },
+  "keywords": ["NativeScript", "JavaScript", "TypeScript", "iOS", "Android"],
+  "author": {
+    "name": "maxdb71",
+    "email": "maxdb71@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/maxdb71/geo-bgnd-ios/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/maxdb71/geo-bgnd-ios"
+}

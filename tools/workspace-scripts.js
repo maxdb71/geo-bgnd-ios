@@ -55,12 +55,19 @@ module.exports = {
       },
     },
     '⚙️': {
-      script: `npx cowsay "@nativescript/* packages will keep your ⚙️ cranking"`,
-      description: '_____________  @nativescript/*  _____________',
+      script: `npx cowsay "@maxdb71/* packages will keep your ⚙️ cranking"`,
+      description: '_____________  @maxdb71/*  _____________',
     },
     // packages
     // build output is always in dist/packages
-    '@nativescript': {
+    '@maxdb71': {
+      // @maxdb71/hello-world-toast
+      'hello-world-toast': {
+        build: {
+          script: 'nx run hello-world-toast:build.all',
+          description: '@maxdb71/hello-world-toast: Build',
+        },
+      },
       'build-all': {
         script: 'nx run-many --target=build.all --all',
         description: 'Build all packages',
@@ -71,8 +78,12 @@ module.exports = {
       description: '_____________  Focus (VS Code supported)  _____________',
     },
     focus: {
+      'hello-world-toast': {
+        script: 'nx run hello-world-toast:focus',
+        description: 'Focus on @maxdb71/hello-world-toast',
+      },
       reset: {
-        script: 'nx g @nativescript/plugin-tools:focus-packages',
+        script: 'nx g @maxdb71/plugin-tools:focus-packages',
         description: 'Reset Focus',
       },
     },
